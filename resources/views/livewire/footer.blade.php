@@ -1,16 +1,11 @@
 
-<footer class="text-gray-700 border-t body-font ">
+<footer class="text-gray-700 border-t body-font bg-gray-300">
     <div
         class="container flex flex-col flex-wrap p-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">
         <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start ">
-                <div class="w-2 h-2 p-2 mr-2 rounded-full bg-gradient-to-tr from-cyan-400 to-lightBlue-500">
-                </div>
-                <h2
-                    class="text-lg font-bold tracking-tighter text-black uppercase transition duration-500 ease-in-out transform hover:text-lightBlack-500 dark:text-lightBlue-400">
-                    Cero57
-                </h2>
-            </a>
+               <img class="h-32 mx-auto" src="{{asset('storage/logo.svg')}}" alt="">     
+            </a>            
         </div>
         <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
             <div class="w-full px-4 lg:w-1/3 md:w-1/2">
@@ -27,9 +22,7 @@
                     <li>
                         <a class="text-sm text-gray-600 hover:text-gray-800">Figma Files</a>
                     </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800">Sketch Files</a>
-                    </li>
+                    
                 </nav>
             </div>
             <div class="w-full px-4 lg:w-1/3 md:w-1/2">
@@ -46,15 +39,7 @@
                     <li>
                         <a class="text-sm text-gray-600 hover:text-gray-800">Carriers</a>
                     </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800">Pricing</a>
-                    </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800"> Security</a>
-                    </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800"> Contact Us</a>
-                    </li>
+                   
                 </nav>
             </div>
             <div class="w-full px-4 lg:w-1/3 md:w-1/2">
@@ -69,23 +54,14 @@
                     </li>
                     <li>
                         <a class="text-sm text-gray-600 hover:text-gray-800">Trademark Policy</a>
-                    </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800">Inactivity Policy</a>
-                    </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800"> DPA</a>
-                    </li>
-                    <li>
-                        <a class="text-sm text-gray-600 hover:text-gray-800">SLA</a>
-                    </li>
+                    </li>                    
                 </nav>
             </div>
         </div>
     </div>
-    <div class="bg-black">
+    <div class="bg-gray-800">
         <div class="container flex flex-col flex-wrap px-5 py-6 mx-auto sm:flex-row">
-            <p class="text-sm text-center text-gray-200 sm:text-left ">© 2020
+            <p class="text-sm text-center text-gray-200 sm:text-left ">© 2021
             </p>
             <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                 <a class="text-white hover:text-blue-500">

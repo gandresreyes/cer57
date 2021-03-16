@@ -23,8 +23,52 @@
 }
 
 .bg-cero{
-  background-image: url(https://image.freepik.com/foto-gratis/grupo-personas-diversas-que-tienen-reunion-negocios_53876-25060.jpg);
+  background-image: url(https://i.pinimg.com/originals/fe/2a/28/fe2a2894650f46e66992d5ba32ebadcf.jpg);
 }
+
+.snap-x {
+  scroll-snap-type: x mandatory;
+  
+scroll-behavior: smooth;
+-webkit-overflow-scrolling: touch;
+}
+.snap-start {
+scroll-snap-align: start;
+}
+/*slider*/
+.active{
+  left: 0 !important;
+  transition: all 1s;
+}
+.resaltado{
+  background-color: rgb(27, 26, 26);
+  transition: background-color .8s;
+}
+.efecto-text{  
+  position: relative;
+}
+.efecto-text:after{
+  content: "";
+  border-left: 3px solid gray;
+  width: 0%; 
+  height: 60%;
+  
+  position: absolute ;
+  right: 0; 
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));;
+  animation: escribir 3s infinite alternate steps(14);  
+  
+}
+@keyframes escribir{
+  form{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
 
 @keyframes movimiento {
     0%, 100% {
@@ -32,10 +76,9 @@
      
     }
     50% {
-      transform: translateY(30px) rotate(360deg);
-      
-    }
+      transform: translateY(30px) rotate(360deg);      
   }
+}
 
   .pulse {  
     animation: pulse 2s infinite;

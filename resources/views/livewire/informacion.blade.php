@@ -1,7 +1,11 @@
 <section class="text-gray-700 body-font relative py-8">
-    <div class="container px-8 mx-auto  lg:px-4">        
-        <div class="flex flex-wrap text-left ">            
-            <div class="px-8 py-6 lg:w-1/3 md:w-full hover:shadow-xl ">
+    <div class="container px-8 mx-auto  lg:px-4">  
+        <div class="flex  items-center justify-center py-5">
+            <!--<span class="efecto-text text-center text-gray-600 text-4xl font-bold py-3" id="text-animate">FACIL RAPIDO  </span>  -->
+            <p class="text-center text-gray-600 text-4xl font-bold " id="typer"></p>            
+        </div>      
+        <div class="flex flex-wrap text-left">            
+            <div class="px-8 py-6 lg:w-1/3 md:w-full shadow-xl transform  scale-95 hover:scale-105 rounded-lg  ">
                 <div class="w-1/3 mx-auto text-white bg-green-300  rounded-full p-5 mb-3 ">
                     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.001 47.001" fill="currentColor">
                         <path d="M44.845,42.718H2.136C0.956,42.718,0,43.674,0,44.855c0,1.179,0.956,2.135,2.136,2.135h42.708    c1.18,0,2.136-0.956,2.136-2.135C46.979,43.674,46.023,42.718,44.845,42.718z"/>
@@ -19,7 +23,7 @@
                     hexagon disrupt edison bulbche.</p>
             </div>
 
-            <div class="px-8 py-6 lg:w-1/3 md:w-full hover:shadow-xl ">
+            <div class="px-8 py-6 lg:w-1/3 md:w-full shadow-xl transform  scale-95 hover:scale-105  rounded-lg ">
                 <div class="w-1/3 mx-auto text-white bg-green-300  rounded-full p-5 mb-3 ">
                     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
                         <path d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z"/>
@@ -40,7 +44,7 @@
                     hexagon disrupt edison bulbche.</p>
             </div>
 
-            <div class="px-8 py-6 lg:w-1/3 md:w-full hover:shadow-xl ">
+            <div class="px-8 py-6 lg:w-1/3 md:w-full shadow-xl transform  scale-95 hover:scale-105 rounded-lg ">
                 <div class="w-1/3 mx-auto text-white bg-green-300  rounded-full p-5 mb-3 ">
                     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
                         <path d="M405.333,213.874V106.667c0-23.531-19.135-42.667-42.667-42.667h-320C19.135,64,0,83.135,0,106.667V320  c0,23.531,19.135,42.667,42.667,42.667h239.215C295.858,411.84,341.073,448,394.667,448c20.625,0,40.906-5.427,58.677-15.708 c5.094-2.948,6.844-9.469,3.885-14.573c-2.948-5.104-9.479-6.865-14.573-3.885c-14.521,8.396-31.115,12.833-47.99,12.833  c-52.938,0-96-43.063-96-96s43.063-96,96-96s96,43.063,96,96v10.667c0,11.76-9.573,21.333-21.333,21.333
@@ -62,7 +66,7 @@
     </div>
     <div class="movimiento  hidden md:block ">
         <div class="absolute  text-green-800  left-2/3 top-5 w-4 h-4 mover ">
-            <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 341.333 341.333" fill="currentColor" >
+            <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 341.333 341.333"  fill="currentColor" >
                 <path d="M170.667,0C76.41,0,0,76.41,0,170.667s76.41,170.667,170.667,170.667s170.667-76.41,170.667-170.667S264.923,0,170.667,0z
                     M170.667,298.667c-70.692,0-128-57.308-128-128s57.308-128,128-128s128,57.308,128,128S241.359,298.667,170.667,298.667z"/>
             </svg>
