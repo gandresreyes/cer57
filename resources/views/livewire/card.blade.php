@@ -1,7 +1,7 @@
 
-<section class="w-full px-8 py-8 xl:px-8 bg-no-repeat bg-cover  bg-top bg-cero">
+<section class="w-full px-8 py-8 xl:px-8 bg-no-repeat bg-cover  bg-top bg-cero bg-fixed mt-16">
     <div class="max-w-5xl mx-auto">
-        <div class="flex flex-col items-center md:flex-row space-x-5 space-y-5">
+        <div class="flex flex-col items-center md:flex-row ">
             <div class="w-full mt-16 md:mt-0 md:w-2/5  ">
                 <div class=" relative z-10 h-auto p-8 py-8 overflow-hidden bg-white  border-gray-300 rounded-lg shadow-2xl px-7 text-center">                      
                     <h3 class="text-xl text-center uppercase p2-4">calcula tu Prestamo</h3>
@@ -62,7 +62,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="w-full space-y-5  md:w-3/5 bg-black bg-opacity-70 p-5  rounded-lg">                
+            <div class="w-full   md:w-3/5  mt-5 md:ml-5 md:mt-0 bg-black bg-opacity-70 p-5  rounded-lg">                
                 <h2 class="text-2xl font-extrabold leading-none text-white sm:text-3xl md:text-5xl">
                     CRÉDITOS ONLINE PARA LO QUE QUIERAS 
                 </h2>

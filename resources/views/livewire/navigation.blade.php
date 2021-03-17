@@ -1,9 +1,9 @@
-<nav class="bg-gray-800" x-data="{open: false}">
+<nav class="bg-gray-800 fixed z-50 w-screen top-0" x-data="{open: false}" >
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
 
         <!-- Mobile menu button-->
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">          
+        <div class="absolute inset-y-0 left-0 flex items-center md:hidden">          
           <button x-on:click="open = true" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             
@@ -16,13 +16,13 @@
           </button>
         </div>
 
-        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
           <a  href="/" class="flex-shrink-0 flex items-center" >
-            <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
-            <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
+            <img class="block lg:hidden h-12 w-auto" src="{{asset('storage/logo2.svg')}}" alt="Workflow">
+            <img class="hidden lg:block h-12 w-auto" src="{{asset('storage/logo2.svg')}}"alt="Workflow">
           </a>
 
-          <div class="hidden sm:block sm:ml-6">
+          <div class="hidden md:block sm:ml-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->              
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">¿Como Funciona?</a>
