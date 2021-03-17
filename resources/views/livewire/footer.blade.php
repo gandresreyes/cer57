@@ -4,7 +4,7 @@
         class="container flex flex-col flex-wrap p-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">
         <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start ">
-                <x-jet-application-mark class="block h-9 w-auto" /> 
+                <x-jet-application-logo class="block h-32 mx-auto" />    
             </a>            
         </div>
         <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
