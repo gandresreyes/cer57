@@ -17,9 +17,8 @@
         </div>
 
         <div class="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
-          <a  href="/" class="flex-shrink-0 flex items-center" >           
-            <x-jet-application-mark class="block lg:hidden h-12 w-auto" />            
-            <x-jet-application-mark class="hidden lg:block h-12 w-auto" />
+          <a  href="/" class="flex-shrink-0 flex items-center" >
+            <x-jet-application-mark class="block h-9 w-auto ml-8 sm:ml-0" />
           </a>
 
           <div class="hidden md:block sm:ml-6">
