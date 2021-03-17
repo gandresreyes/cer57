@@ -4,7 +4,7 @@
         class="container flex flex-col flex-wrap p-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">
         <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start ">
-               <img class="h-32 mx-auto" src="{{asset('storage/logo.svg')}}" alt="">     
+                <x-jet-application-mark class="block h-9 w-auto" /> 
             </a>            
         </div>
         <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
