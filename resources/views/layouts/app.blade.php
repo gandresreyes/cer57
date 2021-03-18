@@ -140,7 +140,7 @@
 
 
               
-                var texto = "¿Que nesecitas  para  Solicitar un prestamo?";
+                var texto = "¿Que necesitas  para  Solicitar un prestamo?";
                 maquina(texto,100);
             
                 function maquina(texto,intervalo){
