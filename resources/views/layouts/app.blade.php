@@ -35,7 +35,7 @@
 
         @livewireScripts
         <script>           
-            window.addEventListener("DOMContentloaded", function() {  
+            window.addEventListener('DOMContentLoaded', (event) => { 
                 //tooltip
                 var interes = document.getElementById("interes");
                 var subtotal = document.getElementById("subtotal");
