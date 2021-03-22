@@ -50,7 +50,7 @@
                                             </div> 
                                             <div class="flex items-center justify-between  py-5">
                                                 <p >Total</p>
-                                                <p >$<span class="text-red-500 text-lg valortotal"></span></p>
+                                                <p class="text-red-500">$<span class="text-red-500 text-lg valortotal"></span></p>
                                             </div> 
                                           
                                         </div>    
