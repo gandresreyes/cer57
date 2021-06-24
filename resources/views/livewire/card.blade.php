@@ -4,7 +4,7 @@
         <div class="flex flex-col items-center md:flex-row ">
             <div class="w-full mt-16 md:mt-0 md:w-2/5  ">
                 <div class=" relative z-10 h-auto p-8 py-8 overflow-hidden bg-white  border-gray-300 rounded-lg shadow-2xl px-7 text-center">                      
-                    <h3 class="text-xl text-center uppercase p2-4">calcula tu Prestamo</h3>
+                    <h3 class="text-xl text-center uppercase p2-4">calcula tu Prestamo test</h3>
                     <p class="text-left">¿Cuanto dinero necesitas?</p>
                     <p class="text-4xl text-center text-gray-500 py-4 px-4">$<span class="valorp" id="valor"></span></p>
                     <input class="w-full  " type="range" min="100000" max="3000000"  step="50000" value="300000"  id="barra" >
